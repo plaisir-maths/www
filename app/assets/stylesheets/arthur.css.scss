@@ -1,0 +1,18 @@
+/*
+ *= require arthur/960
+ *= require arthur/style
+ *= require_self
+ *
+ */
+
+#content {
+  nav {
+    ul {
+      li {
+        &.last {
+          width: 61px;
+        }
+      }
+    }
+  }
+}
