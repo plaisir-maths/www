@@ -16,7 +16,7 @@ body.home
 body
 {
 	font:14px/24px Arial, sans-serif;
-	background: image-url('arthur/styles/default/single-blogbg.png') repeat-x;
+	background: image-url('arthur/styles/default/essai.png') repeat-x;
 	color:#666666;
 }
 
@@ -35,6 +35,10 @@ body
 #table_index td
 {
 	text-align: center;
+}
+#table_index 
+{
+	padding:50px 0;
 }
 
 /*******/
@@ -290,11 +294,11 @@ margin:7px 5px 0px 0px;
 	color:#ffefce;
 	text-shadow: 1px 1px 1px #333333;
 	font-weight:normal;
-}
-#top-body 
+} 
+/* #top-body 
 {
-	padding:45px 0;
-}
+	padding:10px 0;
+} */
 #top-body img
 {
 	/*padding: 20px;*/
