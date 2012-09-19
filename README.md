@@ -13,7 +13,6 @@ git remote rename origin github
 ### Installer les gemmes
 
 ```bash
-cd www
 bundle install
 ```
 
@@ -91,7 +90,8 @@ git pull github master
 
 ### La commande générique
 
-Tout commande locale "xx yyy zz" peut exécutée sur le serveur SSS avec `heroku run xx yyy zz --app SSS`. cf les exemples suivants.
+Tout commande locale `xx yyy zz` peut exécutée sur le serveur SSS avec `heroku run xx yyy zz --app SSS`.
+cf les exemples suivants.
 
 ### Initialiser la base de données du serveur "de stage"
 
