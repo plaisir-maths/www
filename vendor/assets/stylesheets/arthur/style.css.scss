@@ -16,7 +16,7 @@ body.home
 body
 {
 	font:14px/24px Arial, sans-serif;
-	background: image-url('arthur/styles/default/single-blogbg.png') repeat-x;
+	background: image-url('arthur/styles/default/essai.png') repeat-x;
 	color:#666666;
 }
 
@@ -35,6 +35,10 @@ body
 #table_index td
 {
 	text-align: center;
+}
+
+#table_index
+{	padding: 50px 0;
 }
 
 /*******/
