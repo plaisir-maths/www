@@ -19,7 +19,7 @@ xml.urlset "xmlns" => "http://www.sitemaps.org/schemas/sitemap/0.9" do
      xml.url do
        xml.loc refinery.url_for(page_url)
        xml.lastmod page.updated_at.to_date
-     end if page_url.present? and page.show_in_menu?
+     end if page_url.present?# and page.show_in_menu?
     end
   end
 
