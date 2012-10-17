@@ -61,6 +61,7 @@ GEM
       warden (~> 1.1.1)
     dragonfly (0.9.12)
       rack
+    dynamic_sitemaps (1.0.8)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
@@ -206,6 +207,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  dynamic_sitemaps
   jquery-rails (~> 2.0.0)
   pg
   rails (= 3.2.8)
